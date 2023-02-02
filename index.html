@@ -5,56 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <img class="logo"
+      <div class="contenedor">
+        <img
+          class="logo"
           src="https://angular-hosting-2651b.web.app/assets/img/ap-logo.png"
           alt="LogoArgProg"
         />
-      </div>
-      <div class="contenedor">
-        <a href="#conoceme">conoceme</a>
-        <a href="#proyectos">proyectos</a>
-        <a href="#habilidades">habilidades</a>
-        <a href="#contacto">contacto</a>
-
-        <button class="menu-btn">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36"
-            viewBox="0 0 24 24"
-          >
-            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
-          </svg>
-          <svg class="none"
-            xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.424 13.364 12 17.606 7.758z"
-            />
-          </svg>
-        </button>
+        <div class="links">
+          <a href="#conoceme">Conoceme</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <!-- <button class="menu-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+            </svg>
+            <svg
+              class="none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.424 13.364 12 17.606 7.758z"
+              />
+            </svg>
+          </button> -->
       </div>
     </header>
-    <section class=""></section>
-    <aside class="home">CURRICULUM VITAE</aside>
-    <main>PERFIL</main>
-<section id="conoceme">conoceme</section>
-<section id="proyectos">proyectos</section>
-<section id="habilidades">habilidades</section>
-<section id="contacto">contacto</section>
+
+    <!-- <---HOME--->
+
+    <section class="home  full-lg-screen">
+      <div class="home-text">
+        <h1 class="title">yesica fita</h1>
+        <h2>desarolladora web</h2>
+        <div class="button">
+          <a href="">CURRICULUM VITAE</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="conoceme" class="about section full-lg-screen">
+      <article class="text-center text-lg-right mb">
+        <h2>sobre mi</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+          dicta, provident, ipsum in sit recusandae et quos fugiat excepturi
+          minima aperiam unde quo modi rem? Aliquid asperiores enim ipsa velit
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aliquid
+          fugiat sapiente aut accusamus illum nulla iure. iandae doloribus
+          libero repellendus nulla quae culpa quam, et laudantium blanditiis.
+          Voluptatum atque qui commodi assumenda reiciendis consequuntur
+          tempora.
+        </p>
+        <a href="#" class="button" target="_blank">descarga mi CV</a>
+      </article>
+
+      <article class="text-center mb grey-scale">
+        <img  class="perfil "src="./imagenes/foto-perfil.jpg" alt="foto personal yesica fita" />
+      </article>
+    </section>
+    <section id="proyectos" class="full-lg-screen">Proyectos</section>
+    <section id="habilidades" class="full-lg-screen">Habilidades</section>
+    <section id="contacto" class="full-lg-screen">Contacto</section>
     <footer class="footer">
       <div>formulario contacto</div>
       <div>datos</div>
-      <div>mapa</div>
     </footer>
   </body>
 </html>
