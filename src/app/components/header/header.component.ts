@@ -1,16 +1,21 @@
-import { Component } from '@angular/core';
-//import { PortfolioService } from 'src/app/services/portfolio.service';
+import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent  {
-// implements OnInit **esto va luego de headercomponent y ademas se de agregar en el componente de @angularcore// 
-//constructor(private datosPortfolio:PortfolioService){}
-// ngOnInit(): void {
-//   this.datosPortfolio.saludo();
+export class HeaderComponent implements OnInit  {
+
+miPortfolio:any;
+
+constructor(private datosPortfolio:PortfolioService){}
+ngOnInit(): void {
+  this.datosPortfolio.obtenerDatos().subscribe(database=>{
+    
+this.miPortfolio=database
+  });
   
-// }
+}
 }

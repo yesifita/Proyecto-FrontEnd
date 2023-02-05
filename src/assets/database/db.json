@@ -1,0 +1,61 @@
+{
+	"logo":"https://angular-hosting-2651b.web.app/assets/img/ap-logo.png",
+	
+  "information": {
+    "name": "yesica",
+    "apellido": "fita",
+    "image": "https://lh3.googleusercontent.com/a/AEdFTp5gzBQljnv8mIhQdmrOZ1jotqS5e8eMXheInM4l=s288-p-rw-no",
+    "cv": ""
+  },
+  "projects": {
+    "proj-1": {
+      "id": 1,
+      "url": "",
+      "image": ""
+    },
+
+    "proj-2": {
+      "id": 2,
+      "url": "",
+      "image": ""
+    },
+    "proj-3": {
+      "id": 3,
+      "url": "",
+      "image": ""
+    }
+  },
+  "skill":{
+	"1":{
+		"lenguage":"html",
+		"percent":90
+
+	},
+	"2":	{
+		"lenguage":"css",
+		"percent":85
+
+	},
+	"3":
+	{
+		"lenguage":"JavaScrip",
+		"percent":60
+
+	},
+	
+	"4":
+	{
+		"lenguage":"Typescript",
+		"percent":45
+
+	},
+	"5":{
+		"lenguage":"NodeJS",
+		"percent":40
+	},
+	"6":{
+		"lenguage":"React",
+		"percent":40
+	}
+  }
+}

@@ -12,8 +12,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PortfolioService } from './services/portfolio.service';
-
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,17 +24,18 @@ import { PortfolioService } from './services/portfolio.service';
     SkillsComponent,
     ContactComponent,
     FooterComponent,
-  
-
-  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    
+    AppRoutingModule, 
+    NgbModule, 
+    HttpClientModule
   ],
-  providers: [PortfolioService],
-  bootstrap: [AppComponent]
+  providers: [
+    PortfolioService
+  ],
+  bootstrap: [
+    AppComponent
+  ],
 })
-export class AppModule { }
+export class AppModule {}

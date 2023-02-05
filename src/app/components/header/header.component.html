@@ -2,11 +2,11 @@
     <div class="contenedor">
       <img
         class="logo"
-        src="https://angular-hosting-2651b.web.app/assets/img/ap-logo.png"
+        [src]="miPortfolio.logo"
         alt="LogoArgProg"
       />
       <div class="links">
-        <a href="#conoceme">Conoceme</a>
+        <a href="#conoceme">{{miPortfolio.information.name}}</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#contacto">Contacto</a>
