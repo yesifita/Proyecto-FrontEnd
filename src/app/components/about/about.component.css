@@ -1,0 +1,38 @@
+.grey-scale {
+  filter: grayscale(0.8);
+}
+.mb {
+  margin-bottom: 2rem;
+}
+.perfil {
+  width: 350px;
+  height: 400px;
+}
+.section {
+  padding: 2rem 1rem;
+}
+.text-center {
+  text-align: center;
+}
+.text.right {
+  text-align: right;
+}
+@media screen and (min-width: 1024px) {
+  .text-lg-right {
+    text-align: right;
+  }
+}
+
+.about > article > h2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 1024px) {
+    .about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    align-content: center;
+  }
+}

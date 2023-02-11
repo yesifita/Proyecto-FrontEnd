@@ -1,0 +1,50 @@
+.home {
+    background-image: url("../../../assets/imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+  }
+  
+  .home-text {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-shadow: #727272 2px 2px 5px;
+  }
+
+  .title {
+    padding-left: 5%;
+    padding-bottom: 0.8rem;
+  }
+  .home-text > h2 {
+    padding-left: 5%;
+    margin-bottom: 0.8rem;
+  }
+  @media screen and (min-width: 768px) {
+    .title {
+      font-size: 2.8rem;
+    }
+    .home-text > h2 {
+      font-size: 2.3rem;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* .full-lg-screen {
+      width: 100%;
+      min-height: 100vh;
+    }; */
+    .title {
+      font-size: 3rem;
+    };
+    .home-text > h2 {
+      font-size: 2.5rem;
+    }
+  }

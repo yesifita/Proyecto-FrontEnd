@@ -1,1 +1,36 @@
-<section id="contacto" class="full-lg-screen">Contacto</section>
+<section id="contacto" class="full-lg-screen">
+  <form class="contact-form">
+    <input
+      type="text"
+      name=""
+      placeholder="Ingresa tu nombre"
+      pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+      required
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Ingresa tu email"
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      title="ingresa un mail valido "
+      required
+    />
+    <textarea
+      name="comments"
+      id=""
+      cols="50"
+      rows="10"
+      placeholder="Deja tu comentario"
+    ></textarea>
+    <input type="submit" class="button" value="Enviar" />
+    
+    <article id="modal-form" class="modal">
+        <div class="modal-content">
+          <article class="contact-form-response">
+            <h3>Gracias por comunicarte en breve estaremos en contacto contigo</h3>
+          </article>
+        </div>
+      </article>
+  </form>
+
+</section>
